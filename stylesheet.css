@@ -23,7 +23,8 @@ a {
   background-size: contain;
   background-position: center;        /* 背景を中央に配置 */
   background-repeat: no-repeat;       /* 繰り返しを防ぐ */
-  height: 100vh;                      /* コンテナの高さをビューの高さに設定 */
+  max-width:100%;
+  height:700px;
   color: white;
   text-align: center;
 }
