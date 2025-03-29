@@ -21,6 +21,9 @@ a {
   padding: 180px 0 100px 0;
   background-image: url(dogandme.jpg);
   background-size: contain;
+  background-position: center;        /* 背景を中央に配置 */
+  background-repeat: no-repeat;       /* 繰り返しを防ぐ */
+  height: 100vh;                      /* コンテナの高さをビューの高さに設定 */
   color: white;
   text-align: center;
 }
